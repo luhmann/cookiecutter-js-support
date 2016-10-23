@@ -12,7 +12,7 @@
     "type": "git",
     "url": "git+https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.repo_name}}.git"
   },
-  "engines": { "node" : ">={{cookiecutter.node_versions}}" },
+  "engines": { "node" : ">={{cookiecutter.node_version}}" },
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
