@@ -1,7 +1,7 @@
 {
-  "name": "{{cookiecutter.project_name}}",
+  "name": "{{cookiecutter.repo_name}}",
   "version": "1.0.0",
-  "description": "{{cookiecutter.description}}",
+  "description": "{{cookiecutter.description|replace('\"', '')}}",
   "author": "{{cookiecutter.your_name}} <{{cookiecutter.your_email}}> ({{cookiecutter.your_website}})",
   "main": "index.js",
   "scripts": {
@@ -12,6 +12,7 @@
     "type": "git",
     "url": "git+https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.repo_name}}.git"
   },
+  "engines": { "node" : ">={{cookiecutter.node_versions}}" },
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
@@ -21,7 +22,6 @@
     "eslint-plugin-standard": "^2.0.1",
     "intelli-espower-loader": "^1.0.1",
     "mocha": "^3.1.2",
-    "power-assert": "^1.4.1",
-    "yarn": "^0.16.1"
+    "power-assert": "^1.4.1"
   }
 }
