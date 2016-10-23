@@ -5,7 +5,7 @@
     "sourceType": "script",
     "ecmaFeatures": {
       "impliedStrict": true,
-
+      "jsx": true
     }
   },
   "env": {

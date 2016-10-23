@@ -3,11 +3,7 @@
 
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com)
 
-# Prerequisites:
-
-- [Node.js](https://nodejs.org/en/) — `brew install node`
-
-# Quick start:
+## Quick start:
 
 Install dependencies:
 
@@ -15,3 +11,7 @@ Install dependencies:
 yarn
 ```
 
+##Scripts
+
+* `lint` - Lint your files
+* `test` - Run mocha tests
