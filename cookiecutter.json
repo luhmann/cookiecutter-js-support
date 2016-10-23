@@ -5,5 +5,6 @@
   "your_email": "jfd@daenen4.de",
   "your_website": "http://luhmann.me/",
   "description": "nice_description",
-  "github_username": "luhmann"
+  "github_username": "luhmann",
+  "node_version": "6.9.1"
 }
